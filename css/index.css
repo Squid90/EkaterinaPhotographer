@@ -12,21 +12,9 @@ body {
     height: 100vh;
     margin-right: auto;
     margin-left: auto;
-  }
-
-  .profile__preview {
-    display: block;
-    box-sizing: border-box;
-    width: 100%;
-    display: flex;
-  }
-
-  .profile__avatar {
-    display: block;
-    align-self: center;
-    box-sizing: border-box;
-    height: 100vh;
-    object-fit: contain;
+    background-image: url("../img/model.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .profile__title {
