@@ -137,10 +137,12 @@ body {
 }
 
 .price-info {
+  margin-top: 15px;
   padding-left: 30px;
 }
 
 .price {
+  
   color: #ffffff;
   font-size: 20px;
   font-family: "OpenSans", sans-serif;
@@ -151,6 +153,15 @@ body {
 .price-old {
   font-size: 14px;
   text-decoration: line-through;
+}
+
+li {
+  margin: 0 30px;
+  font-size: 14px;
+  text-align: left;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 
 
