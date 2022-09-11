@@ -113,8 +113,19 @@ body {
   text-align: justify;
 }
 
+h3 {
+  margin-top: 0;
+}
+
 p {
   margin: 0;
+  margin-top: 15px;
+  text-indent: 30px;
+}
+
+.figure_model {
+  float: right;
+  margin: 0 0 0 20px;
 }
 
 .profile__avatar {
@@ -123,6 +134,7 @@ p {
   box-sizing: border-box;
   width: 100%;
   object-fit: contain;
+  float: left;
 }
 
 @media (min-width: 768px) {
